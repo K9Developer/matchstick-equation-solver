@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY5N3VD06Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KY5N3VD06Y');
+</script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" id="style">
+    <title>Matchstick Solver</title>
+        
+   <script type="text/javascript">
+   document.getElementById('script').src = './index.js' + '?v=' + Date.now();
+   document.getElementById('style').src = './style.css' + '?v=' + Date.now();
+</script>
+</head>
+
+<body>
+    <div>
+    Made By Ilai K (KingOfTNT10/K9Dev):
+    <br/>
+    <span style="margin-left: 20px"> - Algorithm - <a target="_blank" rel="noopener noreferrer" href="https://github.com/KingOfTNT10/Matchstick_Algorithm-Python">Code on Github</a></span>
+    <br/>
+    <span style="margin-left: 20px; display:block; margin-bottom: 20px;"> - Website - <a target="_blank" rel="noopener noreferrer" href="https://github.com/KingOfTNT10/KingOfTNT10.github.io">Code On Github</a></span></div>
+    
+    <canvas id="c-img" class="invisible"></canvas>
+    <div id="container">
+        <div id="top-buttons">
+            <button class="button" id="gen-eq">Generate Equation</button>
+            <div id="input-group">
+                <span id="eq-input-label">Equation</span>
+                <input type="text" id="eq-input">
+            </div>
+            <button class="button" id="solve-eq">Solve Equation</button>
+            
+        </div>
+    
+        <div id="footer-group">
+            <span id="equation"></span>
+            <image id="eq-img" style="display: block"></image>
+
+            <div id="after-eq">
+            <button class="button button-s invisible" id="share">Share Equation</button>
+            <button class="button button-s invisible" id="show-sol">Show Solutions</button></div>
+            <div id="solutions" class="invisible"></div>
+        </div>
+    </div>
+    <div style="display:none;">
+        <img src="./assets/images/+.png" alt="" id="+" >
+        <img src="./assets/images/-.png" alt="" id="-" >
+        <img src="./assets/images/1.png" alt="" id="1" >
+        <img src="./assets/images/2.png" alt="" id="2" >
+        <img src="./assets/images/3.png" alt="" id="3" >
+        <img src="./assets/images/4.png" alt="" id="4" >
+        <img src="./assets/images/5.png" alt="" id="5" >
+        <img src="./assets/images/6.png" alt="" id="6" >
+        <img src="./assets/images/7.png" alt="" id="7" >
+        <img src="./assets/images/8.png" alt="" id="8" >
+        <img src="./assets/images/9.png" alt="" id="9" >
+        <img src="./assets/images/0.png" alt="" id="0" >
+        <img src="./assets/images/=.png" alt="" id="=" >
+        <img src="./assets/images/x.png" alt="" id="x" >
+        <img src="./assets/images/divide.png" alt="" id="divide" >
+    </div>
+    <script src="https://unpkg.com/mathjs@11.0.1/lib/browser/math.js"></script>
+    <script src="index.js" type="module" id="script"></script>
+</body>
+</html>
